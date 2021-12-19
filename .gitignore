@@ -1,0 +1,11 @@
+data
+save
+ResNet50_vanilla
+resnet32x4_vanilla
+resnet110_vanilla
+wrn_40_2_vanilla
+resnet56_vanilla
+vgg13_vanilla
+resnet34_imagenet_vanilla
+HSAKD
+SSKD
