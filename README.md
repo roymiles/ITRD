@@ -32,49 +32,6 @@ where the flags are explained as:
 - `--lambda_mutual`: Mutual information loss weighting
 - `--alpha_it`: Renyi's alpha-order used in the correlation loss
 
-## Example commands
-1. Same architectural experiments
-```
-python train_student.py --path_t ./save/models/wrn_40_2_vanilla/ckpt_epoch_240.pth --model_s wrn_16_2 -b 1.0 -r 1.0 --lambda_corr 2.0 --lambda_mutual 1.0 --alpha_it 1.01
-```
-```
-python train_student.py --path_t ./save/models/wrn_40_2_vanilla/ckpt_epoch_240.pth --model_s wrn_40_1 -b 1.0 -r 1.0 --lambda_corr 2.0 --lambda_mutual 1.0 --alpha_it 1.01
-```
-```
-python train_student.py --path_t ./save/models/resnet56_vanilla/ckpt_epoch_240.pth --model_s resnet20 -b 1.0 -r 1.0 --lambda_corr 2.0 --lambda_mutual 1.0 --alpha_it 1.01
-```
-```
-python train_student.py --path_t ./save/models/resnet110_vanilla/ckpt_epoch_240.pth --model_s resnet20 -b 1.0 -r 1.0 --lambda_corr 2.0 --lambda_mutual 1.0 --alpha_it 1.01
-```
-```
-python train_student.py --path_t ./save/models/resnet110_vanilla/ckpt_epoch_240.pth --model_s resnet32 -b 1.0 -r 1.0 --lambda_corr 2.0 --lambda_mutual 1.0 --alpha_it 1.01
-```
-```
-python train_student.py --path_t ./save/models/resnet32x4_vanilla/ckpt_epoch_240.pth --model_s resnet8x4 -b 1.0 -r 1.0 --lambda_corr 2.0 --lambda_mutual 1.0 --alpha_it 1.01
-```
-```
-python train_student.py --path_t ./save/models/vgg13_vanilla/ckpt_epoch_240.pth --model_s vgg8 -b 1.0 -r 1.0 --lambda_corr 2.0 --lambda_mutual 1.0 --alpha_it 1.01
-```
-2. Cross architectural experiments
-```
-python train_student.py --path_t ./save/models/vgg13_vanilla/ckpt_epoch_240.pth --model_s MobileNetV2 -b 1.0 -r 1.0 --lambda_corr 2.0 --lambda_mutual 1.0 --alpha_it 1.5
-```
-```
-python train_student.py --path_t ./save/models/ResNet50_vanilla/ckpt_epoch_240.pth --model_s MobileNetV2 -b 1.0 -r 1.0 --lambda_corr 2.0 --lambda_mutual 1.0 --alpha_it 1.5
-```
-```
-python train_student.py --path_t ./save/models/ResNet50_vanilla/ckpt_epoch_240.pth --model_s vgg8 -b 1.0 -r 1.0 --lambda_corr 2.0 --lambda_mutual 1.0 --alpha_it 1.5
-```
-```
-python train_student.py --path_t ./save/models/resnet32x4_vanilla/ckpt_epoch_240.pth --model_s ShuffleV1 -b 1.0 -r 1.0 --lambda_corr 2.0 --lambda_mutual 1.0 --alpha_it 1.5
-```
-```
-python train_student.py --path_t ./save/models/resnet32x4_vanilla/ckpt_epoch_240.pth --model_s ShuffleV2 -b 1.0 -r 1.0 --lambda_corr 2.0 --lambda_mutual 1.0 --alpha_it 1.5
-```
-```
-python train_student.py --path_t ./save/models/wrn_40_2_vanilla/ckpt_epoch_240.pth --model_s ShuffleV1 -b 1.0 -r 1.0 --lambda_corr 2.0 --lambda_mutual 1.0  --alpha_it 1.5
-```
-
 ## Benchmark Results on CIFAR-100:
 Performance is measured by classification accuracy (%)
 
