@@ -80,10 +80,11 @@ Performance is measured by classification accuracy (%)
 
 ## Citation
 ```
-@article{miles2021itrd,
-author = {Miles, Roy and Rodriguez, Adrian Lopez and Mikolajczyk, Krystian},
-title = {{Information Theoretic Representation Distillation}},
-year = {2021}
+@inproceedings{miles2022itrd,
+  title={Information Theoretic Representation Distillation},
+  author={Miles, Roy and Lopez-Rodriguez, Adrian and Mikolajczyk, Krystian},
+  booktitle={British Machine Vision Conference (BMVC)},
+  year={2022}
 }
 ```
 
