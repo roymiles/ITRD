@@ -78,6 +78,10 @@ Performance is measured by classification accuracy (%)
 | ReviewKD | 70.37 | 69.89 | - | **77.45** | **77.78** | **77.14** |
 | **ITRD** | **70.39** | **71.34** | **75.49** | 76.69 | 77.40 | 77.09 |
 
+## Binary Distillation
+Code can be found at: https://drive.google.com/file/d/1WJ_rGIsQ-SaqvXzNsfkxcNA6rWBbcnD8/view?usp=sharing
+Relevant comments: https://github.com/roymiles/ITRD/issues/1
+
 ## Citation
 ```
 @inproceedings{miles2022itrd,
