@@ -1,8 +1,16 @@
 # Information Theoretic Representation Distillation
-The provided code is for reproducing the CIFAR100 experimental results in our paper [Information Theoretic Representation Distillation
-](https://arxiv.org/abs/2112.00459). The code is tested with Python 3.8.
+Code for the BMVC2022 paper:
+
+```text
+"Information Theoretic Representation Distillation".
+Roy Miles, Adrian Lopez Rodriguez, Krystian Mikolajczyk. BMVC 2022.
+```
+[[Paper on arxiv](https://arxiv.org/abs/2112.00459)]
 
 ## Running
+
+The provided code is for reproducing the CIFAR100 experimental results in our paper [Information Theoretic Representation Distillation
+](https://arxiv.org/abs/2112.00459). The code is tested with Python 3.8.
 
 1. Fetch the pretrained teacher models by:
 
